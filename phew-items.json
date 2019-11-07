@@ -1,0 +1,176 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"item"
+		]
+	},
+	"item": [
+		{
+			"name": "Greatclub",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 10,
+			"dmg1": "{@dice 1d8}",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Handaxe",
+			"type": "M",
+			"weapon": true,
+			"axe": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 200,
+			"weight": 2,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{
+			"name": "Quarterstaff",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"rarity": "None",
+			"value": 20,
+			"weight": 4,
+			"dmg1": "{@dice 1d4}",
+			"dmg2": "{@dice 1d8}",
+			"dmgType": "B",
+			"property": [
+				"V"
+			],
+			"source": "PHEW",
+			"staff": true
+		},
+		{
+			"name": "Trident",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 1d10}",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"source": "PHEW"
+		},
+		{
+			"name": "Caestus",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "{@dice 1d4}",
+			"dmgType": "B",
+			"property": [
+				"L"
+			],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Your hand is considered free even while you are wielding this weapon, but you can't use it to attack if you're wielding another weapon in the same hand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Katana",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 5000,
+			"weight": 3,
+			"dmg1": "{@dice 1d6}",
+			"dmg2": "{@dice 1d10}",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"V"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Nunchaku",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 150,
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "B",
+			"property": [
+				"D"
+			],
+			"source": "PHEW"
+		},
+		{
+			"name": "Kusarigama",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"rarity": "None",
+			"value": 1000,
+			"weight": 10,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"D",
+				"R"
+			],
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The off-hand end of the weapon deals {@dice 1d4} bludgeoning damage. You can only benefit from the reach property with one of the two ends within a single turn."
+					]
+				}
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "D",
+			"source": "PHEW",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"This weapon can be wielded in two hands and it is considered a pair of light weapons when you do. You can choose which end of the weapon to attack with if you wield it one-handed."
+					]
+				}
+			]
+		}
+	]
+}
