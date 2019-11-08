@@ -96,6 +96,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -164,6 +168,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Ranger",
 						"source": "PHEW"
 					},
@@ -218,6 +226,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHEW"
@@ -585,6 +597,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -957,6 +973,57 @@
 			]
 		},
 		{
+			"name": "Arcane Ablation",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a piece of worn armor or clothing and imbue it with magic. The creature wearing this the imbued item gains 4 temporary hit points for the duration. When these temporary hit points are exhausted, at the start of the creature's next turn it will gain 3 temporary hit points. This repeats when those temporary hit points are exhausted as the previous total minus one, until no temporary hit points would be gained and the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The initial temporary hit points increases by 1 for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
 			"name": "Arcane Eye",
 			"level": 4,
 			"school": "D",
@@ -990,6 +1057,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -1118,6 +1189,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHEW"
 					}
@@ -1127,6 +1202,49 @@
 			"entries": [
 				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.",
 				"While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
+			]
+		},
+		{
+			"name": "Arcane Weapon",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a weapon and imbue it with magic. For the duration the weapon counts as a magical weapon, any damage dealt by it is Force damage."
 			]
 		},
 		{
@@ -2937,6 +3055,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -3895,6 +4017,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -4498,6 +4624,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -6262,6 +6392,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -6503,6 +6637,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -6778,6 +6916,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -6931,6 +7073,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -7268,6 +7414,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -7573,6 +7723,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -7696,6 +7850,45 @@
 			]
 		},
 		{
+			"name": "Dispel Construct",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You can attempt to purge the magic animating a construct within range, rendering it inert. The target must succeed on a Constitution saving throw, or be reduced to zero hit points. If the target has more than 100 hit points remaining, it makes this roll with advantage."
+			]
+		},
+		{
 			"name": "Dispel Evil and Good",
 			"level": 5,
 			"school": "A",
@@ -7795,6 +7988,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -8828,6 +9025,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -8913,6 +9114,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -9032,6 +9237,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -9470,6 +9679,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -9606,6 +9819,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHEW"
 					}
@@ -9725,6 +9942,53 @@
 			]
 		},
 		{
+			"name": "Fall",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHEW"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You alter gravity for yourself, causing you to reorient which way is down for you until the end of your turn. You can pick any direction to fall as if under the effect of gravity, falling up to 500 feet before the spell ends.",
+				"If you collide with something during this time, you take falling damage as normal, but you can control your fall as you could under normal conditions by holding onto objects or move along a surface according to your new orientation as normal until your turn ends and gravity returns to normal."
+			]
+		},
+		{
 			"name": "False Life",
 			"level": 1,
 			"school": "N",
@@ -9756,6 +10020,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHEW"
@@ -9935,6 +10203,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -10055,6 +10327,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -10248,6 +10524,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -10474,6 +10754,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -10654,6 +10938,53 @@
 			],
 			"areaTags": [
 				"S"
+			]
+		},
+		{
+			"name": "Fireburst Mine",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "Any tiny nonmagical item, which is destroyed by the activation of the spell"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You can set a magical trap by infusing explosive magic into an item. You can set this item to detonate when someone comes within 5 feet of it, or by a verbal command using your reaction (one or more mines can be detonated).",
+				"When the magic trap detonates, each creature in a 20-foot-radius sphere centered on the item must make a Dexterity saving throw. A creature takes {@dice 5d8} fire damage on a failed save, or half as much damage on a successful one. If a creature is in the area of effect of more than one fireburst mine during a turn, they take half damage from any subsequent effects of the mines.",
+				"A magical mine must be set 5 feet or more from another mine, and cannot be moved once placed; any attempt to move it results in it detonating unless the Artificer that set it disarms it with an action."
 			]
 		},
 		{
@@ -11378,6 +11709,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -11572,6 +11907,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHEW"
@@ -12035,6 +12374,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -12247,6 +12590,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -12303,6 +12650,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -13442,6 +13793,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -13721,6 +14076,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -13830,6 +14189,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -14325,6 +14688,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -14404,6 +14771,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -14426,6 +14797,53 @@
 				"To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.",
 				"Should the spell be dispelled, the original script and the illusion both disappear.",
 				"A creature with truesight can read the hidden message."
+			]
+		},
+		{
+			"name": "Imbue Luck",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a weapon or worn item and imbue luck into it. If imbued on a weapon, for the duration, on an attack roll, the wielder can roll an additional d20 (they can choose to do this after they roll, but before the outcome is determined). The creature can choose which of the d20s is used for the attack roll.",
+				"If imbued into a worn item, they can roll a d20 when attacked, then choose whether the attack uses the attacker's roll or theirs.",
+				"With either use, the spell immediately ends upon rolling the extra d20."
+			],
+			"areaTags": [
+				"ST"
 			]
 		},
 		{
@@ -14853,6 +15271,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -14944,6 +15366,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -14996,6 +15422,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -15057,6 +15487,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -15130,6 +15564,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -15494,6 +15932,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Ranger",
 						"source": "PHEW"
 					}
@@ -15763,6 +16205,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -15827,6 +16273,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -16006,6 +16456,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -16251,6 +16705,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -16305,6 +16763,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Paladin",
 						"source": "PHEW"
@@ -17354,6 +17816,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -17998,6 +18464,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -18063,6 +18533,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -18204,6 +18678,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -18423,6 +18901,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -19928,6 +20410,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Cleric",
 						"source": "PHEW"
 					},
@@ -20151,6 +20637,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -20907,6 +21397,60 @@
 			]
 		},
 		{
+			"name": "Repair",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a construct or inanimate object, causing it regain {@dice 10d6} hit points. This causes any parts or material that has broken away from the construct or object to reattach, repairing it to the condition it was in before losing those hit points.",
+				"If the construct or object damaged state is the result of age, you can instead repair to the condition it was in {@dice 10d6} years ago, if it was previously in a better condition during that time (the condition can only improve or not change)."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The hit points restored increases by 2d6 (or the years restored) for each slot above 4th."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
 			"name": "Resistance",
 			"level": 0,
 			"school": "A",
@@ -21322,6 +21866,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Cleric",
 						"source": "PHEW"
 					}
@@ -21730,6 +22278,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -21749,6 +22301,52 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Seeking Projectile",
+			"source": "PHEW",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"entries": [
+				"You touch a piece of ammunition or weapon with the thrown property imbuing it with the property of seeking its target. When an ranged attack roll is made with that weapon, the attack roll can add your spell casting modifier to the value on the dice. If that makes the value on the die a 20 or more, the attack is a critical hit as if a 20 was rolled. After making the attack roll, the spell ends."
+			],
+			"areaTags": [
+				"ST"
 			]
 		},
 		{
@@ -21871,6 +22469,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -23058,6 +23660,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -23577,6 +24183,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Cleric",
 						"source": "PHEW"
 					},
@@ -23656,6 +24266,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
@@ -24337,6 +24951,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -24629,6 +25247,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -24711,6 +25333,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Wizard",
 						"source": "PHEW"
@@ -24844,6 +25470,51 @@
 			],
 			"miscTags": [
 				"SCL"
+			]
+		},
+		{
+			"name": "Thunderburst Mine",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Any tiny nonmagical item, which is destroyed by the activation of the spell"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You can set a magical trap by infusing explosive magic into an item. You can set this item to detonate when someone comes within 5 feet of it, or by a verbal command using your reaction (one or more mines can be detonated).",
+				"When the magic trap detonates, each creature in a 10-foot-radius sphere centered on the item must make a Constitution saving throw. A creature takes {@dice 3d8} thunder damage on a failed save, or half as much damage on a successful one. If a creature is in the area of effect of more than one thunderburst mine during a turn, they take half damage from any subsequent effects of the mines.",
+				"A magical mine must be set 5 feet or more from another mine, and cannot be moved once placed; any attempt to move it results in it detonating unless the Artificer that set it disarms it with an action."
 			]
 		},
 		{
@@ -25532,6 +26203,51 @@
 			]
 		},
 		{
+			"name": "Unburden",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"A creature you touch no longer suffers the penalties to movement speed or to their Dexterity (Stealth) checks while wearing heavy armor, and is no longer encumbered from carrying weight unless they are carrying more than twice the weight that would encumber them."
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
 			"name": "Unseen Servant",
 			"level": 1,
 			"school": "C",
@@ -25564,6 +26280,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -25732,6 +26452,50 @@
 			"miscTags": [
 				"SCL",
 				"SGT"
+			]
+		},
+		{
+			"name": "Vorpal Weapon",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a weapon and imbue it with power. Until the spell ends, the weapon becomes indescribably sharp, ignoring resistance to slashing damage, and gains the Siege property, dealing double damage to inanimate objects such as structures. If weapon has a modifier of less than +3 to attack and damage rolls, its modifier becomes +3 to attack and damage rolls for the duration of the spell.",
+				"Additionally, if a critical strike of this weapon would leave a creature with less than 50 hitpoints, the target creature is decapitated, killing it."
 			]
 		},
 		{
@@ -26014,6 +26778,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -26240,6 +27008,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -26317,6 +27089,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -26603,6 +27379,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
@@ -27114,6 +27894,66 @@
 			]
 		},
 		{
+			"name": "Lightning Charged",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of once used lightning rod"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You channel lightning energy into a creature. The energy is harmless to the creature, but escapes in dangerous bursts to other nearby creatures.",
+				"Every time that creature strikes another creature with a melee attack, a spell with a range of touch, is struck by another creature with melee attack, or ends their turn while grappling or being grappled by another creature, they deal {@spell 1d6} Lightning damage to that creature.",
+				"Once this spell has discharged 6 times (dealing up to 6d6 damage), the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The spell can discharge damage 2 additional times (dealing 2d6 more total damage) before the spell ends for each slot level above 2nd."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
 			"name": "Lightning Lure",
 			"source": "PHEW",
 			"level": 0,
@@ -27500,6 +28340,49 @@
 			]
 		},
 		{
+			"name": "Bond Item",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					}
+				]
+			},
+			"source": "PHEW",
+			"entries": [
+				"You touch a item weighing no more than 100 pounds and form a link between you and it. Until the spell ends, you can recall it to your hand as a bonus action.",
+				"If another creature is holding or wearing the item when you try to recall it, they make a Charisma saving throw, and if they succeed, the spell fails. They make this save with advantage if they have had possession of the item for more than 1 minute."
+			]
+		},
+		{
 			"name": "Bones of the Earth",
 			"source": "PHEW",
 			"level": 6,
@@ -27601,6 +28484,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHEW"
@@ -28966,6 +29853,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Druid",
 						"source": "PHEW"
 					},
@@ -29431,6 +30322,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
@@ -30579,6 +31474,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHEW"
@@ -31963,6 +32862,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHEW"
 					},
@@ -32026,6 +32929,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Bard",
 						"source": "PHEW"
@@ -32150,6 +33057,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
@@ -33080,6 +33991,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
+					{
 						"name": "Bard",
 						"source": "PHEW"
 					},
@@ -33201,6 +34116,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
@@ -33449,6 +34368,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHEW"
+					},
 					{
 						"name": "Druid",
 						"source": "PHEW"
