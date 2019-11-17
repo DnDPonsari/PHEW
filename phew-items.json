@@ -156,6 +156,153 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Gao - Protector (dormant)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +1 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 2d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 15 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+1"
+		},
+		{
+			"name": "Gao - Protector (awakened)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +2 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 4d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 30 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+2"
+		},
+		{
+			"name": "Gao - Protector (exalted)",
+			"type": "S",
+			"wondrous": true,
+			"weight": 6,
+			"ac": 2,
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A shield with the power to repel any attack. This item's true power is revealed when paired with the Gao - Servant shortsword.",
+				"While holding this shield, you gain a +3 bonus to AC and become proficient with the shortsword. This bonus is in addition to the shield's normal bonus to AC.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If the sword is sheathed within this item, you can draw it as a free action.",
+				"Whenever an attack misses your AC by 5 or more and you can see the source of the attack, you can use your reaction to cause Gao-Protector to roar. That source becomes the target of the roar and, if it is within 5 feet of you, it must make a Wisdom saving throw against your divine spellcasting DC. A creature that fails the save takes {@dice 6d10} thunder damage and, if it isn't immune to fear, it falls prone.",
+				"This item can hold up to 3 charges. Any unspent charges are lost at dawn. You can use 1 charge from this item to increase the range of the roar to 60 feet and have if affect every creature in a 30-foot cone centered on the target.",
+				"If you're wielding this shield when you cast a divine spell, Gao - Servant regains 1 charge for each level of the spell used, assuming you're also wielding the sword or it is sheathed within the shield."
+			],
+			"bonus": "+3"
+		},
+		{
+			"name": "Gao - Servant (dormant)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +1 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (10 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+1"
+		},
+		{
+			"name": "Gao - Servant (awakened)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +2 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (15 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to {@dice 1d4} times the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+2"
+		},
+		{
+			"name": "Gao - Servant (exalted)",
+			"type": "S",
+			"wondrous": true,
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "Martial",
+			"weight": 2,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "Major",
+			"rarity": "Tegument",
+			"source": "PHEW",
+			"reqAttune": "by a divine caster",
+			"entries": [
+				"A sword with the power to smite its enemies with divine justice. This item's true power is revealed when paired with the Gao - Protector shield.",
+				"While holding this sword, you gain a +3 bonus to attack and damage rolls and become proficient with shields.",
+				"If you're wielding both Gao - Protector and Gao - Servant you can sheathe the sword into the shield as an item interaction. If this item is sheathed within the shield, you can draw it as a free action.",
+				"When you unsheathe this sword, you can use your divine spellcasting ability instead of your Strength or Dexterity to determine attacks and damage dealt from this weapon. If you unsheathe it from Gao - Protector, it gains the reach (20 feet) property.",
+				"This item can hold up to 9 charges. Any unspent charges are lost at dawn. As an action, you can use any number of charges to make a single ranged attack with this weapon. The maximum range equals 10 feet times the number of charges spent. This attack deals extra radiant damage equal to {@dice 1d6} times the number of charges spent. A target hit by the attack must make a Strength Saving Throw against your divine spellcasting DC or pulled 5 feet towards you per charge spent.",
+				"If you're wielding this sword when you use a spell slot to cast a divine spell that restores hit points to at least 1 creature, Gao - Servant regains 1 charge, assuming you're also wielding the shield."
+			],
+			"bonus": "+3"
 		}
 	],
 	"itemProperty": [
