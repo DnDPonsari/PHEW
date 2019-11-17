@@ -166,6 +166,365 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Artificer's Golem",
+			"size": "M",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"construct"
+				]
+			},
+			"source": "PHEW",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "5 + ([Golem's Constitution Modifier + 5] * Artificer Level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 12,
+			"int": 4,
+			"wis": 5,
+			"cha": 1,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"passive": 7,
+			"languages": [
+				"Understands creator’s languages, but cannot speak"
+			],
+			"trait": [
+				{
+					"name": "Bound",
+					"entries": [
+						"The golem is magically bound to its creator. As long as the creator and it are on the same plane of existence, the creator can telepathically call the golem to travel to it, and the golem knows the distance and direction to its creator."
+					]
+				}
+			]
+		},
+		{
+			"name": "Celestial Monkey",
+			"size": "T",
+			"type": "celestial",
+			"source": "PHEW",
+			"alignment": [
+				"CG"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d4+3"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 12,
+			"int": 9,
+			"wis": 15,
+			"cha": 14,
+			"skill": {
+				"acrobatics": "+5",
+				"sleight of hand": "+5",
+				"stealth": "+7",
+				"survival": "+4"
+			},
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"immune": [
+				"poison",
+				"radiant"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"poisoned"
+			],
+			"passive": 12,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"Celestial",
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Clinging Nuisance",
+					"entries": [
+						"The celestial monkey can grapple any creature that is Large or smaller. If the grappled target is a Large or Medium creature, the target's speed is halved instead of being reduced to 0. While a creature is grappled by the celestial monkey, the grappled target has disadvantage on attack rolls as well as Constitution saving throws made to maintain concentration."
+					]
+				},
+				{
+					"name": "Evasive Strikes",
+					"entries": [
+						"When the celestial monkey makes a melee attack against a creature, it doesn't provoke opportunity attacks from that creature for the rest of the turn, whether it hits or not."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The celestial monkey has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Swift Distraction",
+					"entries": [
+						"The celestial monkey can take the Help action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The celestial monkey's spellcasting ability is Wisdom (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell druidcraft}",
+						"{@spell mending}",
+						"{@spell speak with animals}"
+					],
+					"ability": "wis"
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Kojaku",
+			"size": "G",
+			"type": "celestial",
+			"source": "PHEW",
+			"alignment": [
+				"LG"
+			],
+			"ac": [
+				20
+			],
+			"hp": {
+				"average": 481,
+				"formula": "26d20+208"
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 60
+			},
+			"str": 29,
+			"dex": 24,
+			"con": 26,
+			"int": 16,
+			"wis": 27,
+			"cha": 21,
+			"save": {
+				"str": "+17",
+				"wis": "+17",
+				"cha": "+13"
+			},
+			"skill": {
+				"athletics": "+17",
+				"intimidation": "+13",
+				"nature": "+10",
+				"survival": "+17"
+			},
+			"resist": [
+				"necrotic",
+				"poison",
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"passive": 19,
+			"senses": [
+				"truesight 120 ft."
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Sylvan"
+			],
+			"cr": "26",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the kojaku fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The kojaku has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The kojaku's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Primate Telepathy",
+					"entries": [
+						"The kojaku can magically command any primate within 1 mile of it, using a limited telepathy."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The kojaku's long jump is up to 60 feet and its high jump is up to 30 feet, with or without a running start."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kojaku makes three attacks: one with its bite and two with its fists. It can use its staff in place of one fist attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d6 + 9}) piercing damage."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}20 ({@damage 2d10 + 9}) bludgeoning damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be knocked prone."
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d8 + 9}) bludgeoning damage plus {@h}18 {@damage 4d8} radiant damage."
+					]
+				},
+				{
+					"name": "Primate Call",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The kojaku's innate spellcasting ability is Wisdom (spell save {@dc 24}). The kojaku can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal messenger}",
+						"{@spell entangle}",
+						"{@spell healing spirit}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell dominate monster}",
+							"{@spell heal} (8th-level)"
+						],
+						"3e": [
+							"{@spell commune with nature}",
+							"{@spell dominate beast}",
+							"{@spell ensnaring strike} (6th-level)",
+							"{@spell wrath of nature}"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"legendary": [
+				{
+					"name": "Bite",
+					"entries": [
+						"The kojaku makes one bite attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The kojaku moves up to its speed."
+					]
+				},
+				{
+					"name": "Dazzling Leap (Costs 2 Actions)",
+					"entries": [
+						"The kojaku jumps up to half its speed and plants its staff on the ground where it lands. If it lands in a space that contains one or more other creatures, each of those creatures must make a DC 24 Strength or Dexterity saving throw (target's choice). On a failure, a target is knocked prone and takes {@h}16 {@damage 2d6+9} bludgeoning damage plus {@h}17 {@damage 2d8+8} radiant damage. On a success, a target takes only half damage, isn't knocked prone, and is pushed out of the kojaku's space into an unoccupied space of the target's choice that is within 5 feet of the kojaku. If no unoccupied space is within range, the target instead falls prone in the kojaku's space."
+					]
+				},
+				{
+					"name": "Ground Pound (Costs 2 Actions)",
+					"entries": [
+						"The kojaku attempts to grapple one creature within 5 feet of it that is prone. If the grapple is successful or the prone target is already grappled, the kojaku makes {@dice 1d4} fist attacks against the target."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	]
 }
